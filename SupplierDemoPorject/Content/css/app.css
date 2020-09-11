@@ -1,0 +1,12 @@
+﻿.table {
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+}
+
+    .table th, .table td {
+        border: 1px solid #CCC;
+    }
+
+.text-center {
+    text-align: center;
+}

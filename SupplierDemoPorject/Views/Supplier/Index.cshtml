@@ -1,0 +1,54 @@
+﻿@using SupplierDemoPorject.Models
+@model IEnumerable<SupplierModel>
+@{
+    ViewBag.Title = "Demo";
+}
+@using (Html.BeginForm(null, null, FormMethod.Get))
+{
+    <div style="margin-bottom:10px">
+        Search By Supplier Number :
+        <input type="number" name="supplierNumber" value="@Request.QueryString["supplierNumber"]" autofocus />
+        <input type="submit" value="Submit" />
+    </div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Supplier Number</th>
+            <th>Rate</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count() > 0)
+        {
+            foreach (SupplierModel supplier in Model)
+            {
+                foreach (SupplierRateModel rate in supplier.SupplierRateList)
+                {
+                    <tr>
+                        <td>@supplier.SupplierNumber</td>
+                        <td>@Convert.ToInt32(rate.Rate)</td>
+                        <td>@rate.StartDate.ToString("dd MMM yyyy")</td>
+                        <td>@(rate.EndDate.HasValue ? rate.EndDate.Value.ToString("dd MMM yyyy") : "")</td>
+                    </tr>
+                }
+            }
+        }
+        else
+        {
+            if (ViewBag.Error != null)
+            {
+                <tr><td colspan="4" class="text-center">Error: @ViewBag.Error</td></tr>
+            }
+            else
+            {
+
+                <tr><td colspan="4" class="text-center">No data Found.</td></tr>
+            }
+        }
+    </tbody>
+</table>
+
