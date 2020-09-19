@@ -7,12 +7,15 @@ businessLogicLayer/bin/Debug/
 businessLogicLayer/BusinessLogicLayer.csproj.user
 
 Models/obj/
+Models/bin/Debug/
 
 SupplierApiDemoProject/obj/
 SupplierApiDemoProject/bin/BusinessLogicLayer.dll
 SupplierApiDemoProject/bin/BusinessLogicLayer.pdb
 SupplierApiDemoProject/bin/DataAccessLayer.dll
 SupplierApiDemoProject/bin/DataAccessLayer.pdb
+SupplierApiDemoProject/bin/Models.dll
+SupplierApiDemoProject/bin/Models.pdb
 SupplierApiDemoProject/bin/SupplierApiDemoProject.dll
 SupplierApiDemoProject/bin/SupplierApiDemoProject.pdb
 
