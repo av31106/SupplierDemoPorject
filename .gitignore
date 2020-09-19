@@ -1,4 +1,7 @@
-.vs/
+
+.vs/SupplierDemoPorject/DesignTimeBuild/
+.vs/SupplierDemoPorject/v16/
+
 DataAccessLayer/obj/
 DataAccessLayer/bin/Debug/
 
