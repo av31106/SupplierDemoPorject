@@ -1,9 +1,0 @@
-E:\Local Disk (C)\VS Dotnet Demo Projects\SupplierDemoPorject\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.deps.json
-E:\Local Disk (C)\VS Dotnet Demo Projects\SupplierDemoPorject\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.dll
-E:\Local Disk (C)\VS Dotnet Demo Projects\SupplierDemoPorject\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.pdb
-E:\Local Disk (C)\VS Dotnet Demo Projects\SupplierDemoPorject\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfoInputs.cache
-E:\Local Disk (C)\VS Dotnet Demo Projects\SupplierDemoPorject\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfo.cs
-E:\Local Disk (C)\VS Dotnet Demo Projects\SupplierDemoPorject\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CoreCompileInputs.cache
-E:\Local Disk (C)\VS Dotnet Demo Projects\SupplierDemoPorject\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
-E:\Local Disk (C)\VS Dotnet Demo Projects\SupplierDemoPorject\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb
-E:\Local Disk (C)\VS Dotnet Demo Projects\SupplierDemoPorject\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csprojAssemblyReference.cache

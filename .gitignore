@@ -1,0 +1,7 @@
+.vs/
+businessLogicLayer/obj/
+businessLogicLayer/BusinessLogicLayer.csproj.user
+SupplierDemoPorject/obj/
+SupplierApiDemoProject/obj/
+Models/obj/
+DataAccessLayer/obj/
